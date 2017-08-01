@@ -8,25 +8,31 @@ body {
     background-color: #efefef;
 }
 
+.row {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
 h3 {
     font-size: 30px;
+    padding-left: 150px;
+    margin-bottom: 30px;
 }
 
 .markdown {
-    float: left; 
-}
-
-.preview {
-    float: right;
-}
-
-.form {
+    margin-left: 50px;
     height: 100vh;
     width: 50%;
-    padding: 30px;
-    padding-top: 10vh;
     border: 2px solid 
 #202020;
     background-color: #ffedab;
-    
+}
+
+.preview {
+    margin-left: 50px;
+    height: 100vh;
+    width: 50%;
+    border: 2px solid 
+#202020;
+    background-color: #a3d6cc;
 }

@@ -27,13 +27,13 @@ class App extends React.Component {
         return(
         	<div className="container-fluid">
             <div className="row">
-            <div className="col-xs-12 col-sm-6">
+            <div className="col-xs-6 col-sm-6 markdown">
             <h3 id="mark">Markdown Editor</h3>
-             <textarea className="markdown" defaultValue={this.state.text} onChange={this.handleChange}></textarea>
+             <textarea className="form" defaultValue={this.state.text} onChange={this.handleChange}></textarea>
              </div>
-             <div className="col-xs-12 col-sm-6">
+             <div className="col-xs-6 col-sm-6 preview">
              <h3>Preview</h3>
-				<div className="preview" dangerouslySetInnerHTML={this.createMarkup()}>
+				<div className="form"  dangerouslySetInnerHTML={this.createMarkup()}>
                         </div>
 				    </div>
                 </div>
